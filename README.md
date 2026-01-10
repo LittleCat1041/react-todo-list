@@ -9,7 +9,7 @@ A modern, interactive Task Management application built with **React** and **Vit
  - **Responsive UI:** Clean, dark-themed interface designed with modern CSS3.
  - **Immutable State:** All array manipulations (adding, deleting, reordering) follow React's immutability principles to ensure predictable rendering.
 
-## Code Highlights (Code Logic)
+## Technical Highlights (Code Logic)
 
  - **State Management:** utilized `useState` to handle the application's data flow.
  - **Array Manipulation:** Implemented logic to swap array elements for the "Move Up/Down" feature without mutating the original state directly:
