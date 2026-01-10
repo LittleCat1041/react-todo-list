@@ -29,7 +29,7 @@ A modern, interactive Task Management application built with **React** and **Vit
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/LittleCat1041/react-todo-list
+    git clone https://github.com/LittleCat1041/react-todo-list.git
     ```
 2.  **Install dependencies**
     ```bash
