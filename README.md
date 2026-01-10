@@ -43,5 +43,5 @@ A modern, interactive Task Management application built with **React** and **Vit
 
 ## Screenshots
 
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/fe58f21f-ffe7-4b5f-bca9-32a0c27646f2" />
+<img width="908" height="510" alt="image" src="https://github.com/user-attachments/assets/2c143b8c-6a98-43ab-9786-fb2b5417b016" />
 
