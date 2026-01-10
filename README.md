@@ -1,12 +1,46 @@
-# React + Vite
+# React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive Task Management application built with **React** and **Vite**. This project demonstrates advanced state management patterns, including immutable array operations for task prioritization.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - **Dynamic Task Management:** Add and delete tasks instantly using React State.
+ - **Priority Control:** Custom logic to **reorder tasks (Move Up/Down)**, allowing users to prioritize their list dynamically.
+ - **Responsive UI:** Clean, dark-themed interface designed with modern CSS3.
+ - **Immutable State:** All array manipulations (adding, deleting, reordering) follow React's immutability principles to ensure predictable rendering.
 
-## Expanding the ESLint configuration
+## Code Highlights (Code Logic)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ - **State Management:** utilized `useState` to handle the application's data flow.
+ - **Array Manipulation:** Implemented logic to swap array elements for the "Move Up/Down" feature without mutating the original state directly:
+    ```javascript
+    // Example: Logic for moving a task up
+    const updatedTasks = [...tasks];
+    [updatedTasks[index], updatedTasks[index - 1]] =
+    [updatedTasks[index - 1], updatedTasks[index]];
+    setTasks(updatedTasks);
+    ```
+ - **Component Structure:** Broken down into modular components for better maintainability.
+
+## Tech Stack
+ - React (Vite), CSS
+
+## How to Run
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/LittleCat1041/react-todo-list
+    ```
+2.  **Install dependencies**
+    ```bash
+    cd react-todo-list
+    npm install
+    ```
+3.  **Start the app**
+    ```bash
+    npm run dev
+    ```
+
+## Screenshots
+
+<img width="1172" height="656" alt="image" src="https://github.com/user-attachments/assets/51224cce-f6fc-4472-b332-87f309d53832" />
