@@ -34,6 +34,8 @@ A modern, interactive Task Management application built with **React** and **Vit
 2.  **Install dependencies**
     ```bash
     cd react-todo-list
+    ```
+    ```bash
     npm install
     ```
 3.  **Start the app**
