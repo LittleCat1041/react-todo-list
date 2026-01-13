@@ -28,20 +28,20 @@ A modern, interactive Task Management application built with **React** and **Vit
 ## How to Run
 
 ### 1.  **Clone the Repository**
-    ```bash
-    git clone https://github.com/LittleCat1041/react-todo-list.git
-    ```
+```bash
+git clone https://github.com/LittleCat1041/react-todo-list.git
+```
 ### 2.  **Install Dependencies**
-    ```bash
-    cd react-todo-list
-    ```
-    ```bash
-    npm install
-    ```
+```bash
+cd react-todo-list
+```
+```bash
+npm install
+```
 ### 3.  **Start the Application**
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 ## Screenshots
 
